@@ -1,11 +1,11 @@
 ##This script is currently set to be run strictly in the NENG Directory where ./nengcoind is located at
-##While loop on a case by case
+##
 ##Pseudo Code: While(Ctrl-C not entered)
 ##					 
-##			SLEEP SET TO 4 HOURS		
-##					
-##	
-WALLET_ADDRESS=NQFAb97o624vYuTWg6oEqYKp74Ldnei7Ak 				
+##			SLEEP SET TO 4 HOURS where 3600 seconds = 1 hour		
+##			TODO: 1.Fix current bug that prevents proper updating of balance after sending funds.		
+##			TODO: 2.Implement output to logfile with additional statistics.	
+WALLET_ADDRESS="Place recepient wallet address here" 				
 while :
 do
 	echo "To quit press Ctrl-C"
